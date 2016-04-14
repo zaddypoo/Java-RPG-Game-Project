@@ -7,12 +7,12 @@ import javax.imageio.ImageIO;
 
 public class Tile
 {
-	public int[] blank = { -1, -1 };
+	public static int[] blank = { -1, -1 };
 
 	//background
-	public int[] grass = { 0, 0 };
-	public int[] road = { 1, 0 };
-	public int[] leaves = { 2, 0 };
+	public static int[] grass = { 0, 0 };
+	public static int[] road = { 1, 0 };
+	public static int[] leaves = { 2, 0 };
 	
 	
 	//collision
